@@ -1,5 +1,6 @@
 package org.example.Model;
 
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 
@@ -10,6 +11,9 @@ public class SleepRecord {
     public SleepRecord(LocalTime sleepTime, LocalTime wakeTime) {
         this.sleepTime = sleepTime;
         this.wakeTime = wakeTime;
+    }
+
+    public SleepRecord(LocalDateTime startTime, LocalDateTime endTime) {
     }
 
     public LocalTime getSleepTime() {

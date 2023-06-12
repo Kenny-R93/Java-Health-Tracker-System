@@ -15,7 +15,7 @@ public class Diet {
     }
 
     public int getCalories() {
-        return calories;
+        return this.calories;
     }
 
     public void setName(String name) {

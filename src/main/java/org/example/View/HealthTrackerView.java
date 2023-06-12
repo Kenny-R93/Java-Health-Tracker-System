@@ -24,7 +24,7 @@ public class HealthTrackerView {
     public int getUserInput() {
         System.out.print("Enter your choice: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // consume the newline
+        scanner.nextLine(); // Consume the newline
         return choice;
     }
 
@@ -39,7 +39,7 @@ public class HealthTrackerView {
         String name = scanner.nextLine();
         System.out.print("Enter calories: ");
         int calories = scanner.nextInt();
-        scanner.nextLine(); // consume the newline
+        scanner.nextLine(); // Consume the newline
         return new Diet(name, calories);
     }
 }

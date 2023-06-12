@@ -35,6 +35,7 @@ public class Main {
                     userController.addUser(user);
                     break;
                 case 2: // Add Foods
+
                 case 3: // Add Exercise
                 case 4: // Add Sleep Record
                 case 5: // Daily Caloric Balance
